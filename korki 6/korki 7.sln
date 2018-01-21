@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "korki 7", "korki 7\korki 7.csproj", "{F7694EFB-2211-4EE1-B915-E1536DD08AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie switch", "zadanie switch\zadanie switch.csproj", "{C6775DC8-2BE0-4342-9943-BB047F1792B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoda", "metoda\metoda.csproj", "{F1EBFCB3-DD64-4015-9901-4D0AF496AFB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7694EFB-2211-4EE1-B915-E1536DD08AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7694EFB-2211-4EE1-B915-E1536DD08AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7694EFB-2211-4EE1-B915-E1536DD08AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7694EFB-2211-4EE1-B915-E1536DD08AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6775DC8-2BE0-4342-9943-BB047F1792B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6775DC8-2BE0-4342-9943-BB047F1792B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6775DC8-2BE0-4342-9943-BB047F1792B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6775DC8-2BE0-4342-9943-BB047F1792B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EBFCB3-DD64-4015-9901-4D0AF496AFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EBFCB3-DD64-4015-9901-4D0AF496AFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EBFCB3-DD64-4015-9901-4D0AF496AFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EBFCB3-DD64-4015-9901-4D0AF496AFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8785001C-CE95-4214-B17B-F4834EECF4AB}
+	EndGlobalSection
+EndGlobal
