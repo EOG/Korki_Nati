@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFBB9DC8-B1FE-4066-8365-0C92416372B4}</ProjectGuid>
+    <ProjectGuid>{788FCA9C-98C4-4386-8596-E976DB482090}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Korki9</RootNamespace>
-    <AssemblyName>Korki9</AssemblyName>
+    <RootNamespace>Korki_10</RootNamespace>
+    <AssemblyName>Korki 10</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,23 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adres.cs" />
-    <Compile Include="Application.cs" />
-    <Compile Include="CoreApplication.cs" />
-    <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="INode.cs" />
-    <Compile Include="Node.cs" />
-    <Compile Include="NodeFactory.cs" />
-    <Compile Include="NodeStore.cs" />
-    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TagProxy.cs" />
-    <Compile Include="Utilities.cs" />
+    <Compile Include="Zwierze.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
